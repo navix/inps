@@ -1,0 +1,19 @@
+{
+  "name": "inps_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node dist/app",
+    "build": "tsc",
+    "build:watch": "rimraf ./dist && tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
